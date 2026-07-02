@@ -1,66 +1,55 @@
-# E-Commerce Sales & Customer Analytics (SQL)
+# E-Commerce Business Intelligence & Sales Analytics
 
-## Project Overview
-This project focuses on analyzing an e-commerce dataset using **SQL** to derive insights related to sales performance, customer behavior, seller contribution, and time-based trends. The objective was to design a relational database, handle real-world data challenges, and perform analytical queries for business decision-making.
+End-to-end BI solution analyzing 100K+ real-world e-commerce records using MySQL and Power BI — covering sales performance, customer behavior, product analytics, seller operations, and delivery insights.
 
----
 
-## Tools & Technologies
-- SQL  
-- MySQL  
-- MySQL Workbench  
+## Business Impact
 
----
+Total Sales Revenue - 13.59M
+Customer Orders - 99K
+Unique Customers - 96K
+Products Sold - 113K+
+Top Revenue Category - Health Beauty
+Highest Revenue Region - São Paulo (SP)
+Most Used Payment Method - Credit Card
+Average Delivery Time - ~12 Days
 
-## Dataset
-- Source: Kaggle E-commerce Dataset  
-- Size: ~100K+ records  
-- Entities: Customers, Orders, Products, Sellers, Order Items, Payments
 
----
+## Tech Stack
 
-## Database Design
-- Designed a normalized relational schema with primary and foreign key constraints
-- Tables include:
-  - customers
-  - orders
-  - products
-  - sellers
-  - order_items
-  - payments
-- Ensured referential integrity across all tables
+MySQL, SQL, Power BI, Power Query, DAX, Star Schema Modeling
 
----
 
-## Key SQL Analyses Performed
-- Revenue analysis by product category and seller
-- Monthly and yearly sales trends
-- Cumulative and year-over-year growth analysis
-- Customer behavior analysis (repeat purchases, average basket size)
-- Ranking top customers and sellers using window functions
-- Payment behavior analysis (installments vs single payments)
+## Overview
 
----
+This project follows a two-phase analytics workflow:
 
-## Skills Demonstrated
-- Complex JOIN operations
-- Aggregations and subqueries
-- Common Table Expressions (CTEs)
-- Window functions (RANK, DENSE_RANK, LAG, moving averages)
-- Time-based analysis using date functions
-- Handling large datasets and data integrity challenges
+Phase 1 — SQL (MySQL): Imported 100K+ records into a relational database, designed the schema with primary/foreign key relationships across 6 tables, and wrote analytical SQL queries using JOINs, aggregations, and filtering to extract business KPIs and revenue insights.
 
----
+Phase 2 — Power BI: Built a Star Schema data model, developed 25+ DAX measures, and designed a 5-page interactive dashboard covering executive performance, sales trends, customer analysis, product analytics, and seller & delivery operations.
 
-## Project Structure
-├── 01_schema.sql -- Database schema (CREATE TABLE statements)
-├── 03_queries.sql -- Analytical SQL queries
-├── README.md
+## Dashboard Preview
 
----
 
-## How to Use
-1. Execute `01_schema.sql` to create the database schema  
-2. Import dataset CSV files into respective tables  
-3. Run queries from `03_queries.sql` to perform analysis  
+## Key Insights
+
+- Health Beauty was the top revenue-generating product category
+- São Paulo (SP) generated the highest regional sales volume and revenue
+- Credit Card was the dominant payment method across all orders
+- A small segment of sellers and categories drove a disproportionate share of total revenue
+- Average delivery time of ~12 days highlights a potential logistics optimization opportunity
+
+
+
+## Repository Structure
+
+E-Commerce-BI-Sales-Analytics/
+│
+├── Dataset/                  # Raw CSV files
+├── SQL Queries/              # SQL scripts for analysis
+├── Power BI Dashboard/       # .pbix file
+├── Dashboard Screenshots/    # All 5 dashboard page previews
+└── README.md
+
+If you found this useful, consider giving it a ⭐
 
