@@ -29,7 +29,11 @@ Phase 1 — SQL (MySQL): Imported 100K+ records into a relational database, desi
 Phase 2 — Power BI: Built a Star Schema data model, developed 25+ DAX measures, and designed a 5-page interactive dashboard covering executive performance, sales trends, customer analysis, product analytics, and seller & delivery operations.
 
 ## Dashboard Preview
-
+<img width="1443" height="813" alt="Executive dashboard" src="https://github.com/user-attachments/assets/d9522307-d503-4bcd-bd5f-dc8534e03e6c" />
+<img width="1438" height="808" alt="Sales analysis" src="https://github.com/user-attachments/assets/371d104d-a7ab-4285-996b-306765ce979d" />
+<img width="1442" height="813" alt="Customer analysis" src="https://github.com/user-attachments/assets/6ff470fd-57cd-4efa-96a2-57c3d75902e3" />
+<img width="1442" height="808" alt="Products analysis" src="https://github.com/user-attachments/assets/31b79bfa-ad44-46b1-bad1-8f9af65cd5a9" />
+<img width="1441" height="812" alt="Seller   Delivery analysis" src="https://github.com/user-attachments/assets/f2c08b6d-4bef-4fa0-b3e3-c2d2ae5dbe77" />
 
 ## Key Insights
 
